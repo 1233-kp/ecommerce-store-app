@@ -1,0 +1,61 @@
+.home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+.home-hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.home-hero p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 480px;
+    padding: 12px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: #6c47ff;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+.error {
+    color: #e53935;
+}
+
+.no-results {
+    text-align: center;
+    color: #888;
+    margin-top: 40px;
+}
